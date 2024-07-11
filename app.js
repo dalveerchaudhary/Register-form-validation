@@ -32,7 +32,7 @@ function validateForm() {
 
     let isValid = true;
 
-    if (name === "" || [a-z,A-Z].test(name)) {
+    if (name === "" || /\d/.test(name)) {
         nameError.textContent =
             "Please enter your name properly.";
         isValid = false;
