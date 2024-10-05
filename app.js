@@ -6,7 +6,7 @@ function validateForm() {
     const subject = document.getElementById("subject").value;
     const agree = document.getElementById("agree").checked;
     const nameError = document.getElementById("name-error");
-    
+
     const addressError = document.getElementById(
         "address-error"
     );
